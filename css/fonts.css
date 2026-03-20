@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Medium.eot');
+    src: url('../fonts/DMSans-Medium.eot') format('embedded-opentype'),
+        url('../fonts/DMSans-Medium.woff2') format('woff2'),
+        url('../fonts/DMSans-Medium.woff') format('woff'),
+        url('../fonts/DMSans-Medium.ttf') format('truetype'),
+        url('../fonts/DMSans-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Bold.eot');
+    src: url('../fonts/DMSans-Bold.eot') format('embedded-opentype'),
+        url('../fonts/DMSans-Bold.woff2') format('woff2'),
+        url('../fonts/DMSans-Bold.woff') format('woff'),
+        url('../fonts/DMSans-Bold.ttf') format('truetype'),
+        url('../fonts/DMSans-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Regular.eot');
+    src: url('../fonts/DMSans-Regular.eot') format('embedded-opentype'),
+        url('../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../fonts/DMSans-Regular.woff') format('woff'),
+        url('../fonts/DMSans-Regular.ttf') format('truetype'),
+        url('../fonts/DMSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Medium.eot');
+    src: url('../fonts/PlayfairDisplay-Medium.eot') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Medium.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
