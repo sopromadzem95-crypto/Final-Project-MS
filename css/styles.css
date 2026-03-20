@@ -548,7 +548,7 @@
 
 /* pages */
 .sec-pages {
-    background-color: #F9F9F7;
+  background-color: #f9f9f7;
 }
 .pages-1 {
   display: flex;
@@ -598,7 +598,7 @@
   margin-left: 25px;
 }
 .p-pages-2 {
-  color: #2C2F24;
+  color: #2c2f24;
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
@@ -623,8 +623,10 @@
   flex-direction: column;
   width: 306px;
   height: 340px;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
   border-radius: 12px;
-  border: 1px solid #F9F9F7;
+  border: 1px solid #f9f9f7;
   box-shadow: 0px 8px 3px 0 #00000014;
 }
+
+/* contact */
