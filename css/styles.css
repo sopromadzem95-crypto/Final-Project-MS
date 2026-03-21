@@ -8,6 +8,8 @@
   background-color: #474747;
   height: auto;
   /* height: 45px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .info {
