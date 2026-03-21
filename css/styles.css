@@ -55,8 +55,11 @@
   justify-content: space-between;
   padding: 29px 155px 29px 155px;
 }
-.burger-bar {
+#burger-bar {
   display: none;
+}
+.fa-bars {
+  font-size: 30px;
 }
 .nav-list {
   display: flex;
@@ -788,6 +791,37 @@
 .cont-1 {
     width: 209px;
     height: 134px;
+}
+
+
+
+
+/* responsives */
+
+@media (max-width: 1200px) {
+  .navigation {
+    display: none;
+  }
+
+  #burger-bar {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    row-gap: 15px;
+  }
+
+  .navigation.active {
+    display: block;
+  }
+  
 }
 
 
