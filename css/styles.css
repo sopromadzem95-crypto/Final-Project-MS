@@ -366,9 +366,15 @@
   width: 90%;
   height: 867px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -870,8 +876,14 @@
   width: 100%;
 }
 .button-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 90%;
   margin: 0 auto;
@@ -1109,11 +1121,19 @@
   }
 
   .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     width: 100%;
     row-gap: 15px;
@@ -1143,7 +1163,11 @@
     max-width: 1100px;
     width: 90%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* gap: 60px; */
     /* position: relative; */
@@ -1166,8 +1190,11 @@
   }
 
   .boxes-4 {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -1177,7 +1204,11 @@
 
   .footer {
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
   .row-1 > :last-child {
@@ -1185,6 +1216,7 @@
   }
   .row-1 {
     padding-top: 20px;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
   .button-pages {
@@ -1196,7 +1228,10 @@
 
 @media (max-width: 1024px) {
   .menu-boxes {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     gap: 20px;
   }
@@ -1218,7 +1253,12 @@
   } */
 
   .boxes-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -1250,7 +1290,11 @@
   /* TOP BAR */
   .top-bar {
     /* flex-direction: column; */
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 10px;
   }
@@ -1302,7 +1346,12 @@
 
   /* SECTION 2 */
   .menu-boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -1312,25 +1361,38 @@
 
   /* SECTION 3 */
   .feat3-1 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .sec-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: left;
   }
 
   .right-div3 {
     padding-top: 40px;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
     width: 90%;
   }
 
   .left-div3 {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     justify-items: center;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
     /* width: 100%; */
   }
@@ -1348,7 +1410,12 @@
   }
 
   .boxes-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 20px;
   }
@@ -1360,7 +1427,12 @@
 
   /* FOOTER */
   .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
   }
@@ -1380,6 +1452,8 @@
   }
 
   .row-1 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     gap: 20px;
   }
@@ -1388,15 +1462,22 @@
   }
   .row-1 {
     padding-top: 40px;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 
   /* CONTACT */
   .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 30px;
   }
@@ -1405,14 +1486,21 @@
 /* 380px */
 @media (max-width: 380px) {
   .top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .left-div3 {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
   .right-img2 {
@@ -1431,7 +1519,11 @@
 
   .text1-4 {
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     padding-top: 20px;
@@ -1453,7 +1545,12 @@
   }
 
   .customers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     margin: 20px;
   }
