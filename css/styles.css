@@ -367,7 +367,7 @@
   height: 867px;
   margin: 0 auto;
   display: flex;
-  /* gap: 60px; */
+  gap: 60px;
   justify-content: space-between;
   align-items: center;
 }
@@ -457,12 +457,12 @@
 
 .left-img1 {
   max-width: 431px;
-  width: 100%;
+  width: 90%;
   /* height: 600px; */
 }
 
 .left-img1 img {
-  width: 100%;
+  width: 90%;
   /* height: 100%; */
   -o-object-fit: cover;
   object-fit: cover;
@@ -482,7 +482,7 @@
   height: 597px;
 }
 .r-img-1 {
-  width: 100%;
+  width: 90%;
   /* height: 100%; */
   -o-object-fit: cover;
   object-fit: cover;
@@ -492,7 +492,7 @@
   /* margin-top: 150px; */
 }
 .r-img-2 {
-  width: 100%;
+  width: 90%;
   /* height: 100%; */
   -o-object-fit: cover;
   object-fit: cover;
@@ -500,10 +500,6 @@
   width: 290px;
   height: 240px;
   /* margin-bottom: 120px; */
-}
-
-.hidden-img {
-  display: none;
 }
 
 /* section 4 */
@@ -1122,25 +1118,20 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 60px;
+    /* gap: 60px; */
     /* position: relative; */
   }
 
-  .right-div3 {
-    padding-left: 150px;
-  }
-
-  .left-div3 {
+  .left-img1 img {
     display: none;
   }
 
-  /* .hidden-img {
-    max-width: 490px;
-    width: 90%;
-    height: auto;
-    display: block;
-    position: absolute;
-    padding-left: 70px;
+  /* .right-div3 {
+    padding-left: 150px;
+  } */
+
+  /* .left-div3 {
+    display: none;
   } */
 
   .h-img {
@@ -1188,21 +1179,6 @@
     justify-content: space-evenly;
     gap: 50px;
   } */
-
-  .sec-3 {
-    flex-direction: row;
-    gap: 40px;
-  }
-
-  .left-div3 {
-    grid-template-columns: 1fr;
-  }
-
-  .right-img2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
 
   .boxes-4 {
     flex-direction: column;
@@ -1309,13 +1285,24 @@
   }
 
   .right-div3 {
+    padding-top: 40px;
     order: 1;
+    width: 90%;
   }
 
   .left-div3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     order: 2;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+    /* width: 100%; */
+  }
+  .r-img-2 {
+    max-width: 100%;
+  }
+  
+  .r-img-1 {
+    display: none;
   }
 
   /* SECTION 4 */
@@ -1383,6 +1370,10 @@
 
   .left-div3 {
     grid-template-columns: 1fr;
+  }
+  .right-img2 {
+    max-width: 250px;
+    width: 100%;
   }
 
   .h2-sec3 {
