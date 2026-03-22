@@ -6,6 +6,7 @@ btnElement.addEventListener("click", function name(params){
 })
 
 // burger-bar funcional
+
 let navBar = document.getElementById("navigation");
 let burgerBar = document.getElementById("burger-bar");
 
