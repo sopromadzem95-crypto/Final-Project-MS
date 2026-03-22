@@ -15,3 +15,17 @@ burgerBar.addEventListener('click', function(){
 })
 
 
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const burger = document.getElementById("burger-bar");
+//   const nav = document.querySelector(".nav-list");
+
+//   if (burger && nav) {
+//     burger.addEventListener("click", () => {
+//       nav.classList.toggle("active");
+//     });
+//   }
+// });
+
+
+
